@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+
+:root {
+  --fondo: #021838;
+  --letra: #dbfde8;
+}
+
+.contenedor-contacto .contacto {
+  background-color: var(--fondo);
+  max-height: 425px;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: var(--letra);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+}
+
+.contacto .contacto-icono {
+  font-size: 2.5rem;
+  padding-right: 15px;
+}
+
+/* Servicios */
+
+.servicio {
+  display: flex;
+  justify-content: space-around;
+}
+
+.servicio .imagen-logo {
+  height: 110px;
+  width: 200px;
+
+}
+
+
+
+.servicio-nav {
+  padding-top: 25px;
+
+}
+
+
+.bi-list {
+  font-size: 5.5rem;
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  color: var(--fondo);
+
+}
+
+
+
+.fondo-imagen {
+
+  background:  linear-gradient(rgba(4, 54, 129, 0.61), rgba(108, 111, 122, 0.493)), url("../assets/foto7.jpg");
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 63vh;
+  /* Establece la altura del contenedor según el alto de la ventana */
+  background-size:cover;
+  background-position:right center;
+  /* Enfoca el lado izquierdo */
+  display: flex;
+  align-items: center;
+  /* Centra verticalmente el contenido */
+  font-family: 'Wallpoet', cursive;
+  border: none;
+
+}
+
+.section {
+  width: 100%;
+  
+  text-align: center;
+  color: var(--letra);
+  font-size: 6.0rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  
+}
+
+.section-titulo {
+  font-size: 2.9rem;
+  margin: 25px 0px;
+  margin-bottom: 25px;
+  font-weight: bold;
+
+
+}
+
+.section .introduccion-titulo {
+  font-size: 2.9rem;
+  margin-bottom: 25px;
+
+
+}
+
+.section .introduccion-parrafo {
+
+  line-height: 2.9rem;
+  white-space: inherit;
+  margin: 20px 0px;
+  font-weight: lighter;
+  text-align: unset;
+
+}
+
+.section-boton {
+ 
+  border: none;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 1.3rem;
+  cursor: pointer;
+  width: 50%;
+  background-color: var(--fondo);
+  font-family: 'Wallpoet', cursive;
+  margin-left: 10px;
+ 
+
+}
+
+.section-boton:active {
+  background-color: rgba(4, 54, 129, 0.548);
+  box-shadow: 0 5px rgb(4, 54, 129);
+  transform: translateY(4px);
+}
+
+.section-boton--link {
+  font-size: 1.9rem;
+  text-decoration: none;
+  color: var(--letra);
+  font-weight: lighter;
+
+}
+
+
+.contenedor-nav {
+  font-family: 'Wallpoet', cursive;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  gap: 1;
+  border: none;
+
+}
+
+.contenedor-nav__link {
+
+  height: 4.5rem;
+  text-align: center;
+  font-size: 1.9rem;
+  text-decoration: none;
+  color: var(--letra);
+  padding: 1.0rem;
+  
+
+}
+
+.color-primario {
+
+  background-color: var(--fondo);
+}
+
+.color-secundario {
+  --fondo: rgb(2, 33, 80);
+  background-color: var(--fondo);
+}
+
+.color-terciario {
+  --fondo: rgb(3, 45, 109);
+  background-color: var(--fondo);
+}
+
+.icono-nav {
+  font-size: 2.5rem;
+  padding-right: 1.5rem;
+}

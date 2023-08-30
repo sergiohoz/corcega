@@ -1,0 +1,33 @@
+.fondo-imagen {
+
+    background: url("../assetsRepo/img-centralpc.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Wallpoet', cursive;
+
+}
+
+.section {
+
+    text-align: center;
+    color: var(--fondo);
+    font-size: 6.0rem;
+
+
+}
+
+.section-boton {
+   
+  
+    margin-top: 10PX;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 200px;
+
+ 
+  
+  }
